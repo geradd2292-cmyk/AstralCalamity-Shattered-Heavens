@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.aek.shootingstardemo.client.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "CameraMixin",
+    "GameRendererMixin",
+    "LevelRendererMixin",
+    "PlayerModelPoseMixin",
+    "SoundEngineMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

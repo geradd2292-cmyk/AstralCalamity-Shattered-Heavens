@@ -1,0 +1,16 @@
+{
+  "jars": [
+    {
+      "identifier": {
+        "group": "dev.aek.shootingstardemo",
+        "artifact": "the-shooting-star-demo-forge"
+      },
+      "version": {
+        "range": "[1.0.7,)",
+        "artifactVersion": "1.0.7"
+      },
+      "path": "META-INF/jarjar/the-shooting-star-demo-1.0.7-demo+forge-1.20.1.jar",
+      "isObfuscated": false
+    }
+  ]
+}
