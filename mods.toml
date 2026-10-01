@@ -1,0 +1,24 @@
+# The Forge/NeoForge face of the all-versions jar: a mod with no code of its own ("lowcodefml") that carries the
+# Forge/NeoForge 1.20.1 build in META-INF/jarjar/, which FML loads beside it. Fabric Loader ignores this file.
+modLoader = "lowcodefml"
+loaderVersion = "[1,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "shooting_star_demo_multi"
+version = "1.0.7-demo"
+displayName = "The Shooting Star (Demo)"
+authors = "rimuru.dev"
+displayURL = "https://www.tiktok.com/@rimuru.dev"
+logoFile = "shooting_star_demo_multi.png"
+description = '''
+A demo of the Stellar Remote: SS-01 The Shooting Star and SS-04 Seven Stars.
+Demo made by tiktok.com/@rimuru.dev - All rights reserved.
+'''
+
+[[dependencies.shooting_star_demo_multi]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.20.2)"
+ordering = "NONE"
+side = "BOTH"
